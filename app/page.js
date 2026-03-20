@@ -46,7 +46,7 @@ export default function Page() {
 
         <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", marginBottom: "48px" }}>
           <a
-            href="https://wa.me/521TU_NUMERO_AQUI"
+            href="https://wa.me/525635558056"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -108,7 +108,7 @@ export default function Page() {
           </p>
 
           <a
-            href="https://wa.me/521TU_NUMERO_AQUI"
+            href="https://wa.me/525635558056"
             target="_blank"
             rel="noopener noreferrer"
             style={{

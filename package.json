@@ -1,14 +1,93 @@
-{
-  "name": "barber-ai",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+export default function Home() {
+  return (
+    <main style={{
+      backgroundColor: "#0a0a0a",
+      color: "#fff",
+      minHeight: "100vh",
+      fontFamily: "sans-serif",
+      padding: "40px"
+    }}>
+      
+      {/* HERO */}
+      <section style={{ marginBottom: "60px" }}>
+        <h1 style={{ fontSize: "3rem", fontWeight: "bold" }}>
+          ÜBERMENSCH BARBERÍA
+        </h1>
+        <p style={{ marginTop: "10px", color: "#aaa" }}>
+          Precisión. Estilo. Presencia.
+        </p>
+
+        <div style={{ marginTop: "20px" }}>
+          <a 
+            href="https://wa.me/525635558056"
+            style={{
+              background: "#fff",
+              color: "#000",
+              padding: "12px 20px",
+              marginRight: "10px",
+              textDecoration: "none",
+              borderRadius: "6px",
+              fontWeight: "bold"
+            }}
+          >
+            Agendar cita
+          </a>
+
+          <a 
+            href="#servicios"
+            style={{
+              border: "1px solid #fff",
+              padding: "12px 20px",
+              textDecoration: "none",
+              borderRadius: "6px"
+            }}
+          >
+            Ver servicios
+          </a>
+        </div>
+      </section>
+
+      {/* SERVICIOS */}
+      <section id="servicios" style={{ marginBottom: "60px" }}>
+        <h2>Servicios</h2>
+        <ul style={{ marginTop: "20px", lineHeight: "2" }}>
+          <li>Fade</li>
+          <li>Barba</li>
+          <li>Diseño / Grecas</li>
+          <li>Pigmento</li>
+          <li>Corte + barba</li>
+        </ul>
+      </section>
+
+      {/* FILOSOFÍA */}
+      <section style={{ marginBottom: "60px" }}>
+        <h2>¿Por qué nosotros?</h2>
+        <p style={{ marginTop: "10px", color: "#aaa" }}>
+          No seguimos tendencias. Creamos identidad.
+          Cada corte es precisión técnica con intención estética.
+        </p>
+      </section>
+
+      {/* CTA FINAL */}
+      <section>
+        <h2>Reserva tu lugar</h2>
+        <a 
+          href="https://wa.me/521XXXXXXXXXX"
+          style={{
+            display: "inline-block",
+            marginTop: "20px",
+            background: "#fff",
+            color: "#000",
+            padding: "12px 20px",
+            textDecoration: "none",
+            borderRadius: "6px",
+            fontWeight: "bold"
+          }}
+        >
+          Agendar por WhatsApp
+        </a>
+      </section>
+
+    </main>
+  );
 }
